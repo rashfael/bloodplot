@@ -1,0 +1,45 @@
+{
+  "name": "bloodplot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "carlo:build": "vue-cli-service carlo:build",
+    "carlo:serve": "vue-cli-service carlo:serve"
+  },
+  "dependencies": {
+    "@mdi/font": "^4.8.95",
+    "buntpapier": "^1.6.4",
+    "carlo": "^0.9.46",
+    "core-js": "^3.4.4",
+    "roboto-fontface": "^0.10.0",
+    "vue": "^2.6.10",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-carlo": "^0.2.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": "**"
+  }
+}
