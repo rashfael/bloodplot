@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "carlo:build": "vue-cli-service carlo:build",
-    "carlo:serve": "vue-cli-service carlo:serve"
+    "start": "vue-cli-service carlo:serve"
   },
   "dependencies": {
     "@mdi/font": "^4.8.95",
@@ -15,6 +15,7 @@
     "carlo": "^0.9.46",
     "core-js": "^3.4.4",
     "roboto-fontface": "^0.10.0",
+    "usb": "^1.6.2",
     "vue": "^2.6.10",
     "vuex": "^3.1.2"
   },
